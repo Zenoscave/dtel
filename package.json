@@ -1,0 +1,40 @@
+{
+  "name": "dtel",
+  "main": "runner.js",
+  "dependencies": {
+    "bcrypt-nodejs": "latest",
+    "body-parser": "latest",
+    "bunyan": "latest",
+    "config": "latest",
+    "connect-flash": "latest",
+    "cookie-parser": "latest",
+    "ejs": "latest",
+    "express": "latest",
+    "express-session": "latest",
+    "jwt-simple": "latest",
+    "mongoose": "latest",
+    "morgan": "latest",
+    "passport": "latest",
+    "passport-jwt": "latest",
+    "passport-local": "latest",
+    "request": "latest"
+  },
+  "devDependencies": {
+    "chai": "latest",
+    "chai-as-promised": "latest",
+    "gulp": "latest",
+    "gulp-livereload": "latest",
+    "gulp-load-plugins": "latest",
+    "gulp-mocha": "latest",
+    "gulp-nodemon": "latest",
+    "gulp-standard": "latest",
+    "require-dir": "latest",
+    "supertest": "latest",
+    "through": "latest"
+  },
+  "scripts": {
+    "start": "gulp",
+    "devel": "gulp development",
+    "test": "gulp test"
+  }
+}

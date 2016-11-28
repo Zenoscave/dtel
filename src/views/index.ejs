@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="dTel">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+    <title>dTel</title>
+    <base href="/">
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/default.css">
+
+    <script src="vendor/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <style></style> <!-- Bootstrap -->
+    <link href="css/main.css" rel="stylesheet"/>
+</head>
+<body >
+
+<!-- Page Content -->
+<div class="container-fluid">
+    <div ui-view></div>
+</div>
+
+<!-- Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-cookies.min.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="bower_components/angular-highlightjs/angular-highlightjs.min.js"></script>
+<script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+
+<script src="app/utils.js"></script>
+
+<script src="app/app.js"></script>
+<script src="app/controller.js"></script>
+<script src="app/router.js"></script>
+<script src="app/controller.home.js"></script>
+</body>
+</html>
